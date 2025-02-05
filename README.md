@@ -19,7 +19,7 @@
 ```
 
 ## How to run
-###Move to TestBench directory
+### Move to TestBench directory
 ```
  $ cd TestBench
 ```
