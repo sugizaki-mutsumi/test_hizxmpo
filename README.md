@@ -1,8 +1,8 @@
 # Example of HiZ WXM MPO x-ray tracing
 
 ##  Environment
- Geant4 ver 11.3
- ROOT (v6.32.02)
+- Geant4 ver 11.3
+- ROOT (v6.32.02)
 
 -  X-ray reflection physics codes are based on XRTG4.
  https://xraytracer.com
@@ -19,18 +19,21 @@
 ```
 
 ## How to run
- ### Edit parameters in macro file
- in test_hizxmpo.mac 
+###Move to TestBench directory
+```
+ $ cd TestBench
+```
+### Edit parameters in macro file *test_hizxmpo.mac* 
  - gamma-ray source shape, dimension, energy
  - output filename
- - number of events
+ - number of beam photons
 
- ### Run in Batch mode
+### Run in Batch mode
  ```
  $ ../bin/test_hizxmpo test_hizxmpo.mac
 ```
 
- ### Plot PSF
+### Plot PSF
 ```
  $ python -i plt_psfsct.py
 ```
