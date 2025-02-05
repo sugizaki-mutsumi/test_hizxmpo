@@ -1,0 +1,15 @@
+/gps/particle gamma
+/gps/pos/type Plane
+/gps/pos/shape Square
+
+/gps/pos/halfx 62.000000 mm
+/gps/pos/halfy 62.000000 mm
+/gps/pos/centre 0.000000 0.000000 610.000000 mm
+/gps/direction  0.000000 0.000000 -1.000000
+
+/gps/ene/type Mono
+/gps/ene/mono 1.0 keV
+/analysis/setFileName gamma_1000ev_x0y0_n100000.root
+/run/beamOn 100000
+
+

@@ -1,0 +1,30 @@
+/gps/particle gamma
+
+/gps/ene/type Mono
+/gps/ene/mono 1 keV
+
+/gps/pos/type Plane
+/gps/pos/shape Square
+#/gps/pos/centre 0 0 756 mm
+/gps/pos/centre 0 0 756 mm
+#/gps/pos/centre 0 21.5 756 mm
+
+#/gps/pos/halfx 1 mm
+#/gps/pos/halfy 1 mm
+#/gps/pos/halfx 10 mm
+#/gps/pos/halfy 10 mm
+/gps/pos/halfx 20 mm
+/gps/pos/halfy 20 mm
+
+
+/gps/direction 0.0 0.0 -1.0
+
+#/gps/ang/type cos
+#/gps/ang/maxtheta 10 deg 
+
+
+#/gps/ene/type Lin
+#/gps/ene/min 1 keV
+#/gps/ene/max 2 keV
+#/gps/ene/gradient 1
+#/gps/ene/intercept 1

@@ -1,0 +1,13 @@
+Change by M.S.
+
+Primary generator:
+ use General Particle Source
+
+Stepping Action:
+ Store data only when tracking ends.
+ Store data in ROOT ntple format.
+
+Geometry :
+ Modify geometry definition functions ver.1
+ Modify geometry function with G4PVPlacement
+ 

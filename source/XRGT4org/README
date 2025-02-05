@@ -1,0 +1,31 @@
+
+Leiden, October 14, 2009
+========================
+
+This file accompanies the example file xrtg4.cc.
+
+- material files
+
+  The material files are looked for in the current directory, or in
+  the directory pointer to by the environment variable G4NKDATA. The
+  files contain the refractive index in the standard X-ray notation
+  where n = (1-d) - i*k. The material files contain three entries per
+  line: energy(eV) d k.
+
+  See G4XrayRefractionIndex.cc for some more details.
+
+- enabling the process G4XrayGrazingAngleScattering
+
+  This is done in the standard Geant4 manner. The process must be
+  applied to the gamma particle.
+
+  Enabling the process is not enough: the relevant volume boundaries
+  must be coverd with a skin or border surface of type
+  G4XraySurfaceProperty. There is one example surface:
+  G4XraySpecularReflectingSurface. This is a surface that reflects
+  X-rays in a specular manner, with a reflectivity that depends on the
+  angle of incidence.
+
+* Contact
+
+xrtg4-support@cosine.nl
