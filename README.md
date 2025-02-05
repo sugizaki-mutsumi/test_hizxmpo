@@ -31,10 +31,13 @@
 ### Run in Batch mode
  ```
  $ ../bin/test_hizxmpo test_hizxmpo.mac
+ (takes a few minutes to simulate 100000 events)
 ```
 
 ### Plot PSF
 ```
  $ python -i plt_psfsct.py
+ or
+ $ 
 ```
 
