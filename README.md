@@ -1,13 +1,12 @@
 # Example of HiZ WXM MPO x-ray tracing
-
-##  Environment
-- Geant4 ver 11.3
-- ROOT (v6.32.02)
-
 -  X-ray reflection physics codes are based on XRTG4.
  https://xraytracer.com
-- Source codes are in source/src.
-- These codes are partly modified for G4 11.3 and HiZ WXM MPO.
+- Source codes in source/src are modified for G4 11.3 and HiZ WXM MPO.
+
+##  Requirements
+- Geant4 ver 11.3
+- ROOT (v6.32.02)
+- (python numpy, astropy, matplotlib, deveoloped in anaconda enviromnent) 
 
 ## How to build
 ```
