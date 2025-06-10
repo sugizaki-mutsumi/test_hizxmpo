@@ -1,7 +1,7 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # CMakeLists.txt: Geant4 Tutorial for Hep/Medicine Users
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.16...3.27)
 
 #----------------------------------------------------------------------------
 # Setup Section: You have to set the following parameter
